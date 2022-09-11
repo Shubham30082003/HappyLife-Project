@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Poppins:wght@500&family=Radio+Canada:wght@500&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@500&family=Radio+Canada:wght@500&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=PT+Serif&family=Poppins:wght@500&family=Radio+Canada:wght@500&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=PT+Sans:ital@1&family=PT+Serif&family=Poppins:wght@500&family=Radio+Canada:wght@500&family=Raleway:wght@700&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+ html{
+    scroll-behavior: smooth;
+    
+ }   
+
+   
+
+
+.home-background{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home-text{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 53%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.home-text h2{
+    font-size: 30px;
+    padding-bottom: 35px;
+}
+.home-text h1{
+    font-size: 75px;
+    margin-left: 60px;
+    
+}
+.home-text h1 span{
+    color: rgb(254, 221, 31);
+}
+.home-text p{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color:aliceblue;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+   padding-top: 23px;
+   font-family: 'Nanum Gothic', sans-serif;
+}
+nav .logo p{
+    
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(231, 255, 12);
+    padding-top: 20px;
+    text-align: left;
+}
+.logo p span{
+    color:beige;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    bottom: 300px;
+    
+}
+.nav-links ul li::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+   
+    display: block;
+    margin: auto;
+    transition: transform 1s ease-in-out;
+    
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    background: rgb(252, 255, 86);
+    transform: scaleX(1);
+}
+
+/*2nd types page box hover effect*/
+
+.card:hover{
+    background-color: #fff;
+}
+/*3rd symptoms page designing*/
+.symptoms h1{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 30px;
+}
+.symptoms p{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.sympt{
+    margin-top: 5%;
+}
+.sympt1 img{
+    width: 74%;
+    height: 280px;
+    margin-left: 15%;
+}
+
+.sympt2 img{
+    width: 70%;
+    height: 290px;
+    margin-left: 10%;
+}
+
+.sympt3 img{
+
+    width: 70%;
+    height: 280px;
+    margin-left: 5%;
+}
+.sympt1 h3{
+    margin-top: 3%;
+    font-family: 'Radio Canada', sans-serif;
+    margin-left: 15%;
+}
+.sympt2 h3{
+    margin-top: 2%;
+    font-family: 'Radio Canada', sans-serif;
+    margin-left: 10%;
+}
+.sympt3 h3{
+    margin-top: 3%;
+    font-family: 'Radio Canada', sans-serif;
+    margin-left: 5%;
+}
+.sympt_2{
+    margin-top: 3%;
+}
+.sympt4 img{
+    width: 70%;
+    height: 320px;
+    margin-left: 30%;
+}
+.sympt5 img{
+    width: 50%;
+    height: 300px;
+    margin-left: 15%;
+}
+.sympt4 h3{
+    margin-left: 40%;
+}
+.sympt5 h3{
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+
+
+
+
+  .column {
+    float: left;
+    width: 2%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 320px;
+    height: 410px;
+    margin-left: 67%;
+  }
+  
+  /* About page design*/
+
+  .about {
+    padding: 50px;
+    text-align: center;
+    background-color: #1f242e;
+    color: white;
+    font-size: 22px;
+    margin-top: 6%;
+    
+  }
+  .about p{
+      margin-top: 2%;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-size: 17px;
+
+  }
+  .about h3{
+      margin-top: 1%;
+      font-size: 20px;
+  }
+  
+  .our-team{
+      text-align: center;
+      margin-top: 1%;
+      font-size: 30px;
+      margin-bottom: 1%;
+  }
+  .container {
+    padding: 0 10px;
+  }
+ 
+  .container h2 {
+      text-align: center;
+  }
+  .container p{
+      text-align: center;
+  }
+
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color:rgb(134, 202, 163);
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 7px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color:rgba(99, 96, 96, 0.874);
+  }
+  .card2:hover{
+      background-color: rgb(42, 57, 80);
+      color: #fff;
+      
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
